@@ -1,6 +1,7 @@
-GooDork3-dev
+GooDork3-dev (MY NIGGA - EDITION)
 
-The GooDork3 development reposititory, this is a non-operational copy of GooDork3 and the
+![MY NIGGA!](denzel.jpg)
+The GooDork3  development reposititory, this is a non-operational copy of GooDork3 and the
 pieces of code that will soon be pull together to create the new version.
 
 As soon as all the Goals for this version of GooDork are met the working copy with be commited to the
