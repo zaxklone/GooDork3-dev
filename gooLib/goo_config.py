@@ -20,10 +20,7 @@ from getopt import gnu_getopt,getopt,GetoptError
 """
 class config:
 	def __init__(self):
-		#print "1"
 		self.options=dict() #this dictionary will tell us whether options were set and the values they were given
-		#print "2"
-		#self.given_options = options
 		self.regexOptionsList = 'b:a:t:u:s:i:c:l'
 		self.configShortOptionsList = 'L:U:'
 		self.configLongOptionsList = ['v','in=','out=','format=','opmode','useragent']
@@ -36,11 +33,29 @@ class config:
 		#print "3"
 		self.rcfile = None
 	#validity of the config depends soley on this method (*_*)
-	def parseConfig(self,args): #this method takes a list of the switches supplied by the commandline and builds a dictionary
+	def parseConfig(self,args):
+                '''
+                This method takes a list of the switches supplied by the 
+                commandline and builds a `self.options` dictionary
+                
+                @type args : String 
+                @param args : args passed in from the command line
+    
+                @rtype : Boolean
+                @param : Returns whether the parsing of the config was 
+                         a success or failure 
+                 
+
+                '''
+                
 		#if type(args) != type(list): #check that a list was supplied, if not then a .rc file is being read :)
 		#	return
 		long_opIndex = 1
+              
 		if ''.join(args).split('-')[0] == '':
+                        '''
+                         splits the string and looks  
+                        '''
 			long_opIndex = 0 #no dork was supplied
 			self.options['hasDork'] = False
 		else:

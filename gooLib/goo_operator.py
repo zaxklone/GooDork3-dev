@@ -20,7 +20,13 @@ and dumps the results according to the output format supplied.
 #`People say I should follow a coding convention, I say coding conventions should follow me lols'
 
 class Operator:
+        
 	def __init__(self,config):#recieves a config object and operates on it
+                """
+                __
+                @type config : Dictionary 
+                @param config: 
+                """
 		self.results=[] #this will hold the result objects of whatever needed to be done
 		self.config = config
 		self.netlib = goo_netlib(config)

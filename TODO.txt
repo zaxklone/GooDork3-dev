@@ -1,4 +1,4 @@
-This file details the todo list for the GooDork3 project
+This file details the todo list for the GooDork3KWTB project
 General Rules:
 	*
 	goo_operator:
@@ -24,4 +24,16 @@ General Rules:
 			no work has been done here as yet
 		* I would also like the OUTPUT transform scripts mentioned about to be able
 			to handle not only goo_result -> XML/CSV/JSON/HTML but also vice versa!
-	
+
+====================================================================================================================================
+Keith Was To Busy  TODO list
+      
+       - Comment code out thoroughly for n00bs like me
+       - Write my own driver GooDorkKWTB.py a n00bs friendly version this will also help me understand the code better
+       - use argparse for the arguments
+       - implement a parse that will parse the results to all formats easier.
+       - Keep the current core
+        
+       - WISHLIST
+          - GUI frontend for the n00bs that allow bulk downlods and other tasty n00b stuff.
+      	
