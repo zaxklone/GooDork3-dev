@@ -1,4 +1,4 @@
-GooDork3-dev (K3170 is quite Busy- EDITION)
+GooDork3-dev (K3170 is quite Busy - EDITION)
 
 
 The GooDork3  development reposititory, this is a non-operational copy of GooDork3 and the
